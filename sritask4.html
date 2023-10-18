@@ -1,0 +1,35 @@
+<html>
+<head>
+<script type="text/javascript" language="script">
+var students = [{name:"Sam",Subject:"Physics",Marks:100},
+	{name:"Sam",Subject:"Maths",Marks:100},
+	{name:"Sam",Subject:"Science",Marks:100},
+	{name:"Sam",Subject:"Tamil",Marks:100},
+	{name:"Sam",Subject:"English",Marks:100},
+	{name:"Gopal",Subject:"Physics",Marks:83},
+	{name:"Gopal",Subject:"Maths",Marks:73},
+	{name:"Gopal",Subject:"Science",Marks:87},
+	{name:"Gopal",Subject:"Tamil",Marks:63},
+	{name:"Gopal",Subject:"English",Marks:52}];
+
+for(var i=0; i<students.length; i++)
+{
+if(students[i].name == "Sam")
+{
+	if(students[i].Marks == 100)
+	{
+	document.write(students[i].name + " scored " + students[i].Marks + "in " + students[i].Subject + "<br>");
+	}
+}
+else
+{
+	if(students[i].Marks > 80)
+	{
+	document.write(students[i].name + " scored " + students[i].Marks + "in " + students[i].Subject + "<br>");
+	}
+}
+}
+</script>
+</head>
+<body></body>
+</html>
